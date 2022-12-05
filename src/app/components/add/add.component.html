@@ -1,0 +1,43 @@
+<form class="add-form" (ngSubmit)="onSubmit()">
+    <div class="form-control">
+
+        <label for="text">Name:</label>
+
+        <input 
+            type="text" 
+            name="name" 
+            id="text" 
+            placeholder="Add task" 
+            [(ngModel)]="name" />
+
+   
+        <label for="text">Country:</label>
+
+        <input 
+            type="text" 
+            name="country" 
+            [(ngModel)]="country" 
+            id="Country" 
+            placeholder="Add Country" />
+
+
+        <label for="text">State:</label>
+
+        <input 
+            type="text" 
+            name="state" 
+            [(ngModel)]="state" 
+            id="State" 
+            placeholder="Add State" />
+        <label for="text">State:</label>
+
+        <input 
+            type="text" 
+            name="BIC:" 
+            [(ngModel)]="bic" 
+            id="BIC" 
+            placeholder="Add BIC" />
+
+    </div>
+    <input class="btn-block" type="submit" value="Save Bank" />
+</form>

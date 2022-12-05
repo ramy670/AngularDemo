@@ -1,0 +1,21 @@
+<form class="add-form" (ngSubmit)="onSubmitBicSearch()">
+    <br>
+
+    <label for="name">Name: </label>
+    <input type="text" id="name" name="name" [(ngModel)]="name" />
+
+    <br>
+    <label for="State">State </label>
+    <input type="text" id="state" name="state" [(ngModel)]="state" />
+
+    <br>
+
+    <label for="country">Country </label>
+    <input type="text" id="country" name="country" [(ngModel)]="country" />
+    <br>
+    <br>
+
+    <input type="submit" id="bic-btn" value="Search" class="search-btn" name="bic-btn" />
+
+</form>
+<app-bank-list [banksResults]="banks"></app-bank-list>

@@ -1,0 +1,67 @@
+{
+  "banks": [
+    {
+      "id": "1",
+      "country": "string",
+      "state": "string",
+      "name": "string",
+      "BIC": "string"
+    },
+    {
+      "id": "2",
+      "country": "string",
+      "state": "string",
+      "name": "string",
+      "BIC": "string"
+    },
+    {
+      "id": "3",
+      "country": "string",
+      "state": "string",
+      "name": "string",
+      "BIC": "string"
+    },
+    {
+      "id": "6",
+      "name": "fgfgdf",
+      "state": "gfgdfg",
+      "country": "dfsgfg",
+      "BIC": "fgfdg"
+    },
+    {
+      "id": "7",
+      "name": "edfedfdsfsdfdsfds",
+      "state": "4234234",
+      "country": "321423434",
+      "BIC": "234234324"
+    },
+    {
+      "name": "Sweden",
+      "state": "Sweden",
+      "country": "Sweden",
+      "BIC": "Sweden",
+      "id": "oo97s53"
+    },
+    {
+      "name": "Sweden",
+      "state": "sdafgasdfasdfasdf",
+      "country": "Sweden",
+      "BIC": "asdfasdfasdfasdfa",
+      "id": "fY9EI54"
+    },
+    {
+      "name": "Sweden",
+      "state": "dasfeadsf",
+      "country": "Sweden",
+      "BIC": "sdfsdafdsa",
+      "id": "lgAL1d5"
+    },
+    {
+      "name": "Sweden",
+      "state": "4234234",
+      "country": "Sweden",
+      "BIC": "1",
+      "id": "SEA6MFS"
+    }
+  ]
+}

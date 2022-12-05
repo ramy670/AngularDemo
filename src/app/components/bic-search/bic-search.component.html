@@ -1,0 +1,7 @@
+<form class="add-form" (ngSubmit)="onSubmitBicSearch()">
+    <label for="bic">BIC </label>
+    <input type="text" id="bic" name="bic" [(ngModel)]="bic" />
+    <input type="submit" id="bic-btn" value="Search" class="search-btn" name="bic-btn" />
+
+</form>
+<app-bank-list [banksResults]="banks"></app-bank-list>
