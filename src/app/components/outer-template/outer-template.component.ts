@@ -14,22 +14,7 @@ export class OuterTemplateComponent implements OnInit {
   constructor(private bankService: BankService) { }
 
   ngOnInit(): void {
-    //this.bankService.getBanks().subscribe((banksImpo) => {this.banks = banksImpo;  console.log(Date.now());});
-
-  }
-  /*
-  addBank(bank: Bank) {
-    this.bankService.addBanks(bank).subscribe();
-
+ 
   }
  
-  getByBic(bic: string) {
-    this.bankService.getBanksByBic(bic).subscribe((banksImpo) => {
-      this.banks.splice(0);//emptying arr
-      this.banks[0] = banksImpo;//filling with result
-      console.log(this.banks);
-      console.log(banksImpo);
-    });
-   
-  }  */
 }

@@ -15,8 +15,6 @@ export class BankListComponent implements OnInit {
   @Input()  banksResults!: Bank[]; 
 
   ngOnInit(): void {
-    //this.bankService.getBanks().subscribe((banksImpo) => this.banks = banksImpo);
-    console.log(Date.now());
 
   }
   ngOnChanges(changes: SimpleChanges) {
@@ -26,9 +24,5 @@ export class BankListComponent implements OnInit {
     console.log(this.banksResults);
     this.banks=this.banksResults;
 }
-  /*
-  getByBic(bic:string){
-    this.bankService.getBanks().subscribe((banksImpo) => this.banks = banksImpo);
-  }
-  */
+
 }

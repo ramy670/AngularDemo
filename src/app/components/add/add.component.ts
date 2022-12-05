@@ -38,9 +38,6 @@ export class AddComponent implements OnInit {
 
 
     this.tryAddBank(newBank);
-    //this.onAddNew.emit(newBank);
-
-    //emptying fields in page
     this.name = "";
     this.state = "";
     this.country = "";
